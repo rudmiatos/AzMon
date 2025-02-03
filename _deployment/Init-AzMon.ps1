@@ -1325,4 +1325,4 @@ If ($IncludeSQL -and $ParametersJSON.Outputs.azMonBasicSQLTmpl.Contains("Succeed
 
 #
 # The next line outputs the ParametersJSON variable, that was modified with some output data from the template deployments, backup to its original .json parameter file.
-$ParametersJSON | ConvertTo-Json | Out-File -FilePath '$ParametersFile' -Force -Encoding ascii
+$ParametersJSON | ConvertTo-Json | Out-File -FilePath "$ParametersFile" -Force -Encoding ascii
