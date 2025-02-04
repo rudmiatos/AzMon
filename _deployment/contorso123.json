@@ -1,8 +1,8 @@
 {
   "General": {
-    "CompanyName": "Contorso 123",
-    "CompanyDomain": "contorso123.onmicrosoft.com",
-    "TenantID": "9e087d00-55f5-4dc2-bcc4-cfdacca00ab5",
+    "CompanyName": "RudyEnChristopheGaanOpStap",
+    "CompanyDomain": "rudyenchristophegaanopstap.onmicrosoft.com",
+    "TenantID": "e3f9bc70-e360-4348-bec6-b9f8b0f903a0",
     "Environment": "prod",
     "TagEndsOn": "99999999",
     "TagCostCenter": "Default",
@@ -11,7 +11,8 @@
     "AllowedResourceLocations": ["westeurope", "northeurope"],
     "ASCOnboard": "Free",
     "ASCContactEmail": "rudy.michiels@live.be",
-    "ASCContactPhone": "+32477230051"
+    "ASCContactPhone": "+32477230051",
+    "SubscriptionName": "Azure subscription 1"
   },
   "Basic": {
     "WorkspaceDataRetention": 60,
@@ -62,7 +63,7 @@
     "FileCapacityThresholdMBCritical": 1000
   },
   "NSG": {
-    "NSGRulesFileLocation": "C:\\Getronics\\nsgrules.json"
+    "NSGRulesFileLocation": "C:\\Atos\\_Github\\AzMon\\_deployment\\nsgrules.json"
   },
   "Outputs": {
     "GovSetDefId": "tbd",

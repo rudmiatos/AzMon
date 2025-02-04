@@ -92,7 +92,7 @@ param (
         [switch]$IncludeNSG,
         [switch]$IncludeWVD,
         [switch]$IncludeSQL,
-        [switch]$Update
+        [switch]$UpdateC:\Atos\_Github\AzMon\_deployment
 )
 
 ##########################################################################
@@ -147,7 +147,7 @@ $TagCreatedOn = (Get-Date -Format "yyyyMMdd")
 $TagEnvironment = $Environment
 $TagProject = "AzMon"
 $AzMonLocalPath = "C:\Atos\AzMon"
-$GithubBaseFolder = "https://github.com/mydur/AzMon/raw/master/"
+$GithubBaseFolder = "https://github.com/rudmiatos/AzMon/raw/master/"
 $VMWorkbookName = "azmon-$Environment-wbok"
 $AutoAcctName = $ParametersJSON.Outputs.autoAcctName
 $RBOKAlertLifeCycleAckThreshold = 3     # Number of days without changes after which alert is set to Acknowledged
